@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="45">
+
+            <Button Text="Producto" Clicked="Button_Clicked" VerticalOptions="Center"/>
+            <Button Text="Categoria" Clicked="Button_Clicked_1" VerticalOptions="Center"/>
+            <Button Text="Usuarios" Clicked="Button_Clicked_2" VerticalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
